@@ -1,0 +1,22 @@
+I will like to modify this contract. https://bscscan.com/address/0x9b76D1B12Ff738c113200EB043350022EBf12Ff0#code
+
+
+i want to add maximum sellable which should be 95% of the total wallet balance.
+that means you cant sell or transfer more than 95% of your balance at once.
+
+then the remaining balance, you can still sell but still maximum of 95% of the balance.
+
+
+
+Also, this contract has 3% extra fees on sell orders.
+
+we want to make it 10%more making a total of 25% fee on sells.
+
+The contract currently has this for sell orders :
+18% (12% BNB redistribution + 6% Liquidity pool)
+
+
+We want 12% BNB redistribution + 8% Liquidity pool + 5% to burn address
+
+
+and also, we want to change the total supply to 1 million
